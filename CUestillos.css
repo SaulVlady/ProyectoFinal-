@@ -1,0 +1,99 @@
+html{
+    margin: 0;
+    padding: 0;
+    color: rgb(7, 19, 7);
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+body{
+    width: 70%;
+    margin: 10px auto;
+}
+.limpiar{
+   clear: both; 
+}
+header, nav, aside, seccion,seccion2, article, footer{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align:  center;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    background: #00f349;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 10px;
+    border: 2px solid rgb(90, 88, 88);
+    border-radius: 3px;
+}
+aside{
+    float:left;
+    width: 20%;
+    height: 200px;
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+seccion{
+    float: right;
+    width: 79%;
+    height: 240px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+aside div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+article{
+    margin: 10px ;
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    width: 97%;
+    height: 125px;
+
+}
+
+#Datos
+{
+    float: right;
+    margin: 15px 45px;
+    width: 45%;
+    height: 100px;
+    background: #00ff62; 
+}
+
+
+footer{
+    background: #fd1100 ;
+}

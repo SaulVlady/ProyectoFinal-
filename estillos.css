@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    color: rgb(14, 13, 13);
+    text-align: center;
+}
+
+h3{
+    width: 115%;
+    text-align: center;
+    
+    
+}.form-register{
+width: 95%;
+max-width: 500px;
+margin: auto;
+background: white;
+border-radius: 20px;
+}
+
+.form_titulo{
+background: rgb(170, 218, 236);
+color: rgb(24, 7, 7);
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom: 5px solid crimson;
+
+}
+
+.form_tit{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(14, 14, 11);
+    padding: 10px;
+    text-align: center;
+    font-weight: 0;
+    font-size: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.controls-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+}
+
+.input-48{
+    width: 100px;
+}
+.input-100{
+    width: 200px;
+}
+
+.input-300{
+    width: 450px;
+}
+
+.btn-enviar
+{
+    background: crimson;
+    color: white;
+    margin: auto;
+    padding: 10px 140px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+    
+}
+
+.form-link{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: darkgray rgba(red, green, blue, alpha);
+    
+
+}
